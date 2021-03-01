@@ -1,0 +1,127 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background:     #120078;
+
+}
+.searchMain{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+margin: 20px;
+}
+input[type=text] {
+    padding: 15px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #78c4d4;
+  }
+.searchMain button{
+    background: #9d0191;
+    padding: 15px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    color: white;
+}
+.mainSection {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 5vh;
+    margin-bottom: 5vh;
+    background-color: #d81b47;
+    border-radius: 12px;
+    padding: 10px;
+    width: 86vw;
+    box-shadow: 10px 0px 20px 10px #05002442;
+ 
+}
+
+.TempSec{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:  row;
+    font-size: 150px;
+    margin: 10px;
+}
+
+.weatherStatus{
+    font-size: 5rem;
+    text-align: center;
+}
+.DaysForCast{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    margin-right: 20 px;
+
+}
+.DaysForCast{
+    display:flex;
+    flex-direction: row;
+flex-wrap:wrap;
+    justify-content:center;
+    color: white;
+    font-size: 5vh;
+
+}
+.Wind,.Humidity,.Recommended,.Pressure{
+padding: 20px;
+    background-color: #9d0191; 
+    margin: 10px;
+    height: 15.0rem;
+    width: 13.9rem;
+    border-radius: 12px;
+    box-shadow: 10px 0px 20px 10px #05002442;
+  
+    
+
+}
+.DaysForCast h2{
+    text-align: center;
+    display: flex;
+ justify-content: center;
+ margin-top: 1rem;
+ font-size: 2rem;
+}
+.DaysForCast p{
+   text-align: center;
+}
+.Humidity p ,.Pressure p ,.TempRa{
+    font-size: 6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Millibar{
+    font-size:2.5rem !important;
+}
+.Wind p{
+    font-size:1.75rem !important;
+
+}
+.weatherStatusDetails{
+    text-align: center;
+}
+.wIcon{
+    width: 70px;
+display: flex;
+align-self: flex-end;
+margin: auto;
+}
+
+footer{
+    margin-top:20px ;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000027;
+    width: 100vw;
+    font-size: 1rem;
+}
